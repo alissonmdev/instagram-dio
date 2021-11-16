@@ -53,8 +53,8 @@ body {
     flex-direction: column;
     background-color: #ffffff;
     width: 100%;
-    padding: 1.3rem 0;
-    border: 1px solid #lightgray;
+    padding: 1.6rem 0;
+    border: 1px solid lightgray;
 }
 
 .group:nth-child(1){
@@ -63,16 +63,50 @@ body {
 
 .instagram-logo {
     height: 3rem;
+    padding: 1px;
 }
 
 .profile-photo {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 80%;
     overflow: hidden;
+    padding: 5 px;
 }
 
 .profile-photo img {
-    height: 9rem;
+    height: 8rem;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;    
+}
+
+.not-account {
+    color: rgb(160, 160, 160);    
+}
+
+.link-blue {
+
+    color: #0095f6;
+}
+
+.get-the-app {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+
 }
